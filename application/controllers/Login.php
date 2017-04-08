@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Utama extends Public_Controller {
+class Login extends Admin_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -23,19 +23,14 @@ class Utama extends Public_Controller {
 	{
 		parent::__construct();
         
-		$this->load->model('produk_model');
-        //$this->load->library('form_validation');
+		//$this->load->library('form_validation');
         //$this->load->helper('text');
     //    $this->load->helper('url');
 	}
 	
 	public function index()
 	{		
-		$this->data['pilihan_produk'] = $this->produk_model->get_produk_list();
-		//$this->load->view('header');
-		//$this->load->view('utama');
-		//$this->load->view('footer');
-		$this->render('public/utama');
+		$this->render('admin/login');
 	}
 	
 	public function portofolio()

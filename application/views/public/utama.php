@@ -1,6 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-?><!DOCTYPE html>
+?>
 
         
        
@@ -10,35 +10,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="row">
                     <div class="col-sm-10 col-sm-offset-1 slider">
                         <div class="flexslider">
-                            <ul class="slides">
-                                <li data-thumb="<?php echo site_url('assets/img/slider/1.jpg');?>">
-                                    <img src="<?php echo site_url('assets/img/slider/1.jpg');?>">
+                            <ul class="slides">				
+								<?php
+								//print_r($pilihan_produk);
+								foreach ($pilihan_produk as $nilai) {
+								?>
+								<li data-thumb="<?php echo site_url($nilai['path']);?>">
+                                    <img src="<?php echo site_url($nilai['path']);?>">
                                     <div class="flex-caption">
                                     	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
                                     </div>
                                 </li>
-                                <li data-thumb="<?php echo site_url('assets/img/slider/2.jpg');?>">
-                                    <img src="<?php echo site_url('assets/img/slider/2.jpg');?>">
-                                    <div class="flex-caption">
-                                    	Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit 
-                                    	lobortis nisl ut aliquip ex ea commodo consequat.
-                                    </div>
-                                </li>
-                                <li data-thumb="<?php echo site_url('assets/img/slider/3.jpg');?>">
-                                    <img src="<?php echo site_url('assets/img/slider/3.jpg');?>">
-                                    <div class="flex-caption">
-                                    	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. 
-                                    	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. 
-                                    	Lorem ipsum dolor sit amet, consectetur.
-                                    </div>
-                                </li>
-                                <li data-thumb="<?php echo site_url('assets/img/slider/4.jpg');?>">
-                                    <img src="<?php echo site_url('assets/img/slider/4.jpg');?>">
-                                    <div class="flex-caption">
-                                    	Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit 
-                                    	lobortis nisl ut aliquip ex ea commodo consequat.
-                                    </div>
-                                </li>
+								<?php
+								}	
+								?>
+                                
                             </ul>
                         </div>
                     </div>
