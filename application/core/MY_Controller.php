@@ -169,7 +169,7 @@ class Admin_Controller extends MY_Controller
 		{
 		*/
 			//redirect them to the login page
-			redirect('login', 'refresh');
+			//redirect('login', 'refresh');
 		/*
 		}
         $current_user = $this->ion_auth->user()->row();

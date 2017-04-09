@@ -30,7 +30,8 @@ class Login extends Admin_Controller {
 	
 	public function index()
 	{		
-		$this->render('admin/login');
+		//$this->render('admin/login');
+		$this->load->view('admin/login');
 	}
 	
 	public function portofolio()
