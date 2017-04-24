@@ -8,7 +8,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Andia - Responsive Agency Template</title>
+        <title>New Wedding - Responsive Agency Template</title>
 
         <!-- CSS -->
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400">
@@ -67,7 +67,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="index.html">Andia - a super cool design agency...</a>
+					<a class="navbar-brand" href="index.html"> - Manage your wedding</a>
 				</div>
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="top-navbar-1">

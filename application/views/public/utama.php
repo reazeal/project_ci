@@ -18,7 +18,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 								<li data-thumb="<?php echo site_url($nilai['path']);?>">
                                     <img src="<?php echo site_url($nilai['path']);?>">
                                     <div class="flex-caption">
-                                    	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
+                                    	<?php echo $nilai['deskripsi'];?>
                                     </div>
                                 </li>
 								<?php
@@ -37,8 +37,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         	<div class="container">
         		<div class="row">
 	        		<div class="col-sm-12 wow fadeInLeftBig">
-	            		<h1>We are <span class="violet">Andia</span>, a super cool design agency.</h1>
-	            		<p>We design beautiful websites, logos and prints. Your project is safe with us.</p>
+	            		<h1><span class="violet">rencanaweddingku, </span> pilih kebutuhan pernikahan sesuai dengan keuangan anda</h1>
+	            		<p>Produk kita terbaik dengan harga terjangkau</p>
 	            	</div>
             	</div>
         	</div>
@@ -51,7 +51,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	            	<div class="col-sm-3">
 		                <div class="service wow fadeInUp">
 		                    <div class="service-icon"><i class="fa fa-eye"></i></div>
-		                    <h3>Beautiful Websites</h3>
+		                    <h3>Undangan</h3>
 		                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et...</p>
 		                    <a class="big-link-1" href="services.html">Read more</a>
 		                </div>
@@ -59,7 +59,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<div class="col-sm-3">
 		                <div class="service wow fadeInDown">
 		                    <div class="service-icon"><i class="fa fa-table"></i></div>
-		                    <h3>Responsive Layout</h3>
+		                    <h3>Souvenir</h3>
 		                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et...</p>
 		                    <a class="big-link-1" href="services.html">Read more</a>
 		                </div>
@@ -67,7 +67,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	                <div class="col-sm-3">
 		                <div class="service wow fadeInUp">
 		                    <div class="service-icon"><i class="fa fa-magic"></i></div>
-		                    <h3>Awesome Logos</h3>
+		                    <h3>Seserahan</h3>
 		                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et...</p>
 		                    <a class="big-link-1" href="services.html">Read more</a>
 		                </div>
@@ -75,7 +75,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	                <div class="col-sm-3">
 		                <div class="service wow fadeInDown">
 		                    <div class="service-icon"><i class="fa fa-print"></i></div>
-		                    <h3>High Res Prints</h3>
+		                    <h3>Pelaminan</h3>
 		                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et...</p>
 		                    <a class="big-link-1" href="services.html">Read more</a>
 		                </div>

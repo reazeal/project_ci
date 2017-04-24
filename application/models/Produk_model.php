@@ -23,7 +23,8 @@ class Produk_model extends MY_Model
                // $parents[$row->id] = $row->id." , path : ".$row->path;
 				
 				$parents[] = array(
-										'path' => $row->path
+										'path' => $row->path,
+										'deskripsi' => $row->deskripsi
 									);
             }
         }
